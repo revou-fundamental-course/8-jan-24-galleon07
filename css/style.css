@@ -1,59 +1,22 @@
-body{
-    font-family:Arial, Helvetica, sans-serif
-}
-
-header{
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-}
-
-header h1{
-    color: #f7ff00;
-    background-color: #231f89;
-}
-
-header h4{
-    margin-top: 40px;
-    color: #000000;
-}
-
-header p{
-    margin-top: -20px;
-    font-size: x-small;
-    color: #000000;
-}
-
-#Sides {
-    outline: none;
-    border: solid #858585;
-    border-radius: 8px;
-    padding: 5px;
-    margin-top: 10px;
-}
-
-#Sides:focus{
-    border:solid #000000;
-}
-
-.Inputs{
-    display: flex;
-    flex-direction: column;
-}
-
-button{
-    background-color: #848484;
+    margin-top: 50px;
+  }
+  input[type="number"] {
+    padding: 8px;
+    margin: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 8px;
-    padding: 10px 15px;
     cursor: pointer;
-    margin-top: 15px;
-}
-
-button:hover{
-    background-color: #000000;
-}
-
-button:active{
-    background-color: #000000;
-    transform: translateY(2px);
-}
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  #error {
+    color: red;
+  }

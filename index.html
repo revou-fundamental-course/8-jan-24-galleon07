@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Kalkulator Persegi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Square Area and Perimeter Calculator</title>
 </head>
 <body>
-    <header>
-        <h1>Kalkulator Luas dan Keliling Persegi</h1>
-        <h4>Welcome to Kalkulator Luas dan Keliling Persegi</h4>
-        <p>Website ini berfungsi untuk menghitung luas dan keliling persegi</p>
+  <h2>Calculate the Area and Perimeter of a Square</h2>
+  <form id="squareForm">
+    <label for="sideLength">Enter the side length of the square:</label>
+    <input type="number" id="sideLength" required>
+    <span id="error"></span>
+    <br>
+    <button type="button" onclick="calculateAreaAndPerimeter()">Calculate</button>
+  </form>
+  <p id="resultArea"></p>
+  <p id="resultPerimeter"></p>
 
-    </header>
-
-    <div class="Inputs">
-        <label for="Sides" id="LabelSides"> Hitung Luas Persegi</label>
-        <input type="number" id="Sides">
-    </div>
-    <div class="Buttons">
-        <button id="Calc">Hitung</button>
-        <button id="Reset">Reset</button>
-    </div>
+  <script src="script.js"></script>
 </body>
 </html>
